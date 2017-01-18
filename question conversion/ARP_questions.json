@@ -1,0 +1,21 @@
+{   "set_id": "ARP",
+    "set_name": "Adjudicative and Reporting Protocols",
+    "university": "Rutger's University",
+    "questions": {
+        "title": "Adjudicative and Reporting Protocols",
+        "pages": [
+            { "title": "",
+            "questions": [{ "type": "radiogroup", "name": "q1", "title": "Does the campus have a designated office (or staff person) to report an incident of sexual violence?", "isRequired": true, "choices": ["Yes","No"] }, 
+            { "type": "radiogroup", "name": "q1a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q1}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+            { "type": "radiogroup", "name": "q2", "title": "Does the campus identify formal reporting options for students (either in print or online)?", "isRequired": true, "choices": ["Yes","No"] }, 
+            { "type": "radiogroup", "name": "q2a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q2}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+            { "type": "radiogroup", "name": "q3", "title": "Does the campus offer an anonymous reporting form (either in print or online)?", "isRequired": true, "choices": ["Yes","No"] }, 
+            { "type": "radiogroup", "name": "q3a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q3}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+            { "type": "radiogroup", "name": "q4", "title": "Does the campus have written information to provide to a student when they want to report that outlines the process, confidentiality, where/who to report the offense, options if they choose to report?", "isRequired": true, "choices": ["Yes","No"] }, 
+            { "type": "radiogroup", "name": "q4a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q4}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+            { "type": "radiogroup", "name": "q5", "title": "Does the campus provide annual training to the judicial review board?", "isRequired": true, "choices": ["Yes","No"] }, 
+            { "type": "radiogroup", "name": "q5a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q5}='Yes'","choices": ["Internet","Print","Verbal","N/A"] }
+            ]
+            }]
+            }
+}

@@ -1,0 +1,93 @@
+{   "set_id": "CISS",
+    "set_name": "Crisis Intervention Services for Students",
+    "university": "Rutger's University",
+    "questions": {
+        "title": "Crisis Intervention Services for Students",
+        "pages": [
+            { "title": "",
+              "questions": [
+                    { "type": "radiogroup", "name": "q1", "title": "Does the university offer a crisis intervention team that responds to sexual assaults on campus? (Crisis intervention would include an on-call, 24-hour emergency staff available to assist students who have experienced sexual assault.)", "isRequired": true, "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q1a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q1}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+    
+                    { "type": "radiogroup", "name": "q2", "title": "Does the campus identify and provide contact information for trained on- and off-campus advocates and counselors who can provide an immediate, confidential crisis-response in a crisis situation?", "isRequired": true, 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q2a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q2}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+                    
+                    { "type": "radiogroup", "name": "q3", "title": "Is there an anonymous hotline that students can call to get information about available resources regarding sexual violence either on campus or in the community?", "isRequired": true, 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q3a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q3}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] }
+              ]
+            },
+            { "title": "Mental Health Services",
+                "questions": [
+                    { "type": "checkbox", "name": "q4", "title": "Does the university offer students a confidential space for sexual violence disclosure either in the form of:", "isRequired": true,  "choices": ["A crisis center","Staff member protected by confidentiality statuses","Representative from community-based center with such privileges who works part-time on campus","Not available"] },
+                    { "type": "radiogroup", "name": "q4b", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q4}!='Not available'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+                    
+                    { "type": "radiogroup", "name": "q5", "title": "If the answer to the previous question is no, does the campus have a collaborative relationship with community partners that can respond to sexual violence?", "isRequired": true, "visibleIf": "{q4}='No resources available'", 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q5a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q5}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+                    
+                    { "type": "radiogroup", "name": "q6", "title": "Does the university offer free and confidential counseling for students who experience sexual assault?", "isRequired": true, 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q6a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q6}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+                    
+                    { "type": "radiogroup", "name": "q7", "title": "Does the university offer free and confidential longterm counseling and assistance for students who experience sexual assault?", "isRequired": true, 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q7a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q7}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] },
+                    
+                    { "type": "radiogroup", "name": "q8", "title": "Does the university offer support groups for students who have experienced sexual assault?", "isRequired": true, 
+                    "choices": ["Yes","No"] },
+                    { "type": "radiogroup", "name": "q8a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q8}='Yes'",
+                    "choices": ["Internet","Print","Verbal","N/A"] }
+                ]
+            },
+            {"title": "Health Services",
+                "questions": [{ "type": "radiogroup", "name": "q9", "title": "Does the campus health center have a mission statement that pledges to understand trauma and engage in trauma-sensitive practice?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q9a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q9}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q10", "title": "Does the campus health center provide on-going training in trauma-sensitive practice to all health center staff?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q10a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q10}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q11", "title": "Does the campus health center integrate trauma-sensitive concepts, language, and training requirements to staff, including new hires?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q11a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q11}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q12", "title": "Does the campus health center incorporate questions that screen for sexual assault in their intake questionnaire?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q12a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q12}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "checkbox", "name": "q13", "title": "Does the campus health center have handouts available for students, including:", "isRequired": true, "choices": ["School-specific information for filing complaints, resources, and contact lists","General information explaining patient rights, self-care, intimate partner violence, sexual assault","Know Your Rights by the U.S. Department of Education","Not available"] }, 
+                    { "type": "radiogroup", "name": "q13a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q13}!='Not available'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q14", "title": "Does the campus health center articulate an organizational commitment of respect that specifically includes persons from other cultures and those associated with commonly marginalized groups, such as African Americans, Latinos, and LGBTQI individuals?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q14a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q14}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q15", "title": "Does the campus provide victims options to seek treatment for injuries and other health services either on campus or at a local health care provider?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q15a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q15}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q16", "title": "Does the campus provide victims options to seek preventative treatment for sexually transmitted diseases either on campus or at a local health care provider?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q16a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q16}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q17", "title": "Does the campus provide victims options to seek emergency contraception either on campus or at a local health care provider?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q17a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q17}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q18", "title": "Does the campus provide SANE examinations for victims?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q18a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q18}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q19", "title": "If you answered no to the previous question, does the campus have a collaborative partnership with a local medical provider that can conduct a SANE examination?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q19a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q19}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q20", "title": "If SANE examination is conducted off campus, is transportation for victims provided?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q20a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q20}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q21", "title": "Does the campus provide information to students about the importance of preserving evidence as might be necessary to prove criminal sexual assault?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q21a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q21}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "checkbox", "name": "q22", "title": "Does the campus health center have MOUs with off-campus agencies such as:", "isRequired": true, "choices": ["Law enforcement","Local rape crisis centers","Local hospitals with a SART response team","Campus counseling and psychological services","Translators","Student cultural organizations","Not available"] }, 
+                    { "type": "radiogroup", "name": "q22a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q22}!='Not available'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q23", "title": "Does the campus offer advocacy services 24 hours/day to students for immediate response?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q23a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q23}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q24", "title": "Does the campus provide victims with an advocate who can provide information about the legal system and accompany students to court appointments?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q24a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q24}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q25", "title": "Does the campus provide victims with an advocate to accompany students to forensic exam and hospital appointments?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q25a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q25}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "radiogroup", "name": "q26", "title": "Does the campus provide sexual assault victims options for, and available assistance in changing academic, living, transportation, and working situations, if requested by the victim and if such accommodations are reasonably available, regardless of whether victims choose to report the crime to campus police or local law enforcement?", "isRequired": true, "choices": ["Yes","No"] }, 
+                    { "type": "radiogroup", "name": "q26a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q26}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                    { "type": "checkbox", "name": "q27", "title": "Does the campus identify faculty members who can provide ongoing support to the following student parties during the institutional disciplinary or criminal process:", "isRequired": true, "choices": ["Student accuser","Student Accused","N/A"] }, 
+                    { "type": "radiogroup", "name": "q27a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q27}!='N/A'","choices": ["Internet","Print","Verbal","N/A"] }
+                ]
+                }
+        ]}
+}

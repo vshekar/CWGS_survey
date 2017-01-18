@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <title>{{ title }}</title>
+      <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script-->
+      <link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+      <script src="./scripts/jquery.min.js"></script>
+      <script src="./scripts/bootstrap.min.js"></script>
+      <script src="./scripts/survey.jquery.min.js"></script>
+      <script src="./scripts/CISS_questions.js"></script>
+   </head>
+   <body>
+   
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Rutger's School of Social Work</h1> 
+            <p>Sexual Assault Resources: University Policies, Procedures, Outreach and Services Compliance Checklist</p> 
+            <p>Evaluating the Results of the Resource and Policy Scan</p>
+        </div>
+         
+    </div>
+   
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                <h1> Please select a survey from the dropdown list </h1>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Survey List
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                           {% for i,code in enumerate(survey_codes) %}
+                            <li><a href="/survey/{{ code }}">{{ escape(survey_names[i]) }}</a></li>
+                            {% end %}
+                    </ul>
+                </div>
+        </div>
+    </div>
+   </div>
+    
+   </body>
+ </html>

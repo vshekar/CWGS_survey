@@ -1,0 +1,86 @@
+<html>
+   <head>
+      <title>{{ title }}</title>
+      <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script-->
+      <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+      <script src="/scripts/jquery.min.js"></script>
+      <script src="/scripts/bootstrap.min.js"></script>
+      <script src="/scripts/survey.jquery.min.js"></script>
+      <script> var questions = {{ questions }}</script>
+   </head>
+   <body>
+   
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Rutger's School of Social Work</h1> 
+            <p>Sexual Assault Resources: University Policies, Procedures, Outreach and Services Compliance Checklist</p> 
+            <p>Evaluating the Results of the Resource and Policy Scan</p>
+        </div>
+         
+    </div>
+   
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="survey-container">
+                <div id="surveyElement"></div>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+   
+   <script>
+        function sendData(data,url){
+            /*
+            var saveData = $.ajax({
+                type: 'POST',
+                url: url,
+                name: "data",
+                data: data,
+                dataType: "json",
+                success: function(resultData) { console.log("Data sent") }
+            });
+            
+            $.post(url,data, 
+                    function(returnedData){
+                        console.log(returnedData);
+                });
+            */
+            $.ajax(
+                        {
+                            url: url,
+                            type: 'POST',
+                            data: data,
+                            success: function (jsonResponse) {
+                                console.log("Success");
+                            },
+                            error: function () {
+                                console.log("Error");
+                            }
+                        });
+        }
+        
+        Survey.Survey.cssType = "bootstrap";
+        
+        var survey = new Survey.Model(questions);
+        survey.showProgressBar = "bottom";
+        $("#surveyElement").Survey({model:survey});
+        survey.onComplete.add(function (sender) {
+            var results = {};
+            results.surveyId = "{{ survey_id }}";
+            results.data = sender.data
+            console.log(results);
+            sendData(JSON.stringify(results),"/survey/");
+            
+        });
+        
+        
+
+    </script>
+   
+    
+    
+    
+   </body>
+ </html>

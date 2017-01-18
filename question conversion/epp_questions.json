@@ -1,0 +1,31 @@
+{   "set_id": "EPP",
+    "set_name": "Education and Prevention Programming",
+    "university": "Rutger's University",
+    "questions": {
+        "title": "Education and Prevention Programming",
+        "questions": [{ "type": "radiogroup", "name": "q1", "title": "Does the campus have mandatory prevention and education programming about domestic violence, dating violence, sexual assault, and stalking for all new students, including graduate, professional, transfer, and online students?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q1a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q1}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "checkbox", "name": "q2", "title": "If yes, please select ALL of the methods used to ensure that all incoming students receive the mandatory orientation:", "isRequired": true, "visibleIf":"{q1}='Yes'", "choices": ["Website","Courses","Presentations","Seminars","Theater discussions","Other"] }, 
+                { "type": "checkbox", "name": "q3", "title": "Does the campus provide the following information in their mandatory prevention programming:", "isRequired": true, "choices": ["Campus policies and protocols","Student Code of Conduct","Campus Resources","Local and National resources"] }, 
+                { "type": "radiogroup", "name": "q3a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q3}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "checkbox", "name": "q4", "title": "If utilizing a web-based delivery method, does the campus:", "isRequired": true, "choices": ["Mandate the program","Send out reminders to students that come from top leaders of the institution","Offer some type of incentive to students to increase participation"] }, 
+                { "type": "radiogroup", "name": "q4a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q4}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q5", "title": "Does the campus have a mechanism for enforcing the mandatory requirement for all incoming students?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q5a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q5}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q6", "title": "Does the campus offer ongoing prevention and awareness campaigns for students and faculty?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q6a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q6}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q7", "title": "Does the campus offer information on risk reduction to help students recognize warning signs of abusive behavior and how to avoid potential occurrences?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q7a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q7}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q8", "title": "Does the campus offer prevention programming that covers safe and positive options for bystander intervention that may be carried out by an individual to prevent harm or intervene when there is a risk of sexual assault?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q8a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q8}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "checkbox", "name": "q9", "title": "If yes, what method is used to disseminate bystander information:", "isRequired": true, "choices": ["Online bystander intervention program","classroom-based curriculum as part of bystander prevention and education efforts","bystander instruction with opportunities for active, skills-based learning to help engage participants, such as writing exercises, interactive theater, or facilitated discussions"] }, 
+                { "type": "radiogroup", "name": "q9a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q9}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q10", "title": "Do the campus education programs give students time to learn, process, and practice skills that will increase their knowledge about sexual misconduct policies and confidence to act in prosocial ways to help themselves, friends, or strangers?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q10a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q10}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q11", "title": "Does the campus utilize prevention efforts that model positive bystander actions, such as a social marketing campaign?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q11a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q11}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q12", "title": "Does the campus explain to students the available safety nets within the campus’ policies for bystanders, such as amnesty on campus?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q12a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q12}='Yes'","choices": ["Internet","Print","Verbal","N/A"] }
+                ]
+        }
+}

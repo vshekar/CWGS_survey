@@ -1,0 +1,40 @@
+{   "set_id":"SMP",
+    "set_name":"Sexual Misconduct Policy",
+    "university": "Rutger's University",
+    "questions": {
+        "title": "Sexual Misconduct Policy",
+        "pages": [
+            {   "title":"",
+                "questions": [{ "type": "radiogroup", "name": "q1", "title": "Does the campus identify the Title IX coordinator and briefly explain the Title IX Coordinator’s role in the school’s overall response to sexual misconduct in their policy?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q1a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q1}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q2", "title": "Does the campus’ sexual misconduct policy clearly define sexual assault (non-consensual sexual contact and non-consensual sexual intercourse) as prohibited in its sexual misconduct policy?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q2a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q2}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q3", "title": "Does the campus’ sexual misconduct policy clearly define consent?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q3a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q3}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q4", "title": "Does the campus’ sexual misconduct policy include information on victims’ option to, or not to, notify and seek assistance from law enforcement and campus authorities?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q4a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q4}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q5", "title": "Does the campus’ sexual misconduct policy include information on victims’ rights and institutional responsibilities regarding judicial no-contact, restraining and protective orders?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q5a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q5}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q6", "title": "Does the campus’ sexual misconduct policy include a “statement of the standard of evidence” used?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q6a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q6}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q7", "title": "Does the campus’ sexual misconduct policy identify “sanctions or protective measures” the institution may impose following a final determination of rape, acquaintance rape, or sexual assault?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q7a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q7}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q8", "title": "Does the campus’ sexual misconduct policy state that the accuser and the accused are entitled to the same opportunities to have others present during an institutional disciplinary proceeding, including the opportunity to be accompanied to any related meeting or proceeding by an advisor of their choice?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q8a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q8}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q9", "title": "Does the campus’ sexual misconduct policy identify how the victims’ privacy will be protected including record-keeping that excludes personally-identifiable information on victims?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q9a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q9}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q10", "title": "Does the campus’ sexual misconduct policy include a statement prohibiting retaliation against a student who reports an incident of sexual violence?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q10a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q10}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q11", "title": "Does the campus’ policy inform students that the school’s primary concern is student safety, that any other rule violations will be addressed separately or will be granted amnesty from the sexual violence allegation, and that use of alcohol or drugs never makes a victim at fault for sexual violence?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q11a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q11}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q12", "title": "Does the campus have user-friendly materials (either in print or online) to explain the sexual misconduct policy and how victims can get help?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q12a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q12}='Yes'","choices": ["Internet","Print","Verbal","N/A"] },
+                { "type": "radiogroup", "name": "q13", "title": "Does the campus have a statement of policy in which written notification is provided to victims about options for, and available assistance in, obtaining interim accommodations which include changing academic, living, transportation, and working situations, if so requested by the victim, regardless of whether the victim chooses to report the crime to campus police or law enforcement?", "isRequired": true, "choices": ["Yes","No"] }, 
+                { "type": "radiogroup", "name": "q13a", "title": "Where is information about resources located?", "isRequired": true, "visibleIf": "{q13}='Yes'","choices": ["Internet","Print","Verbal","N/A"] }
+                ]
+            }
+        ]
+    }
+
+
+}
